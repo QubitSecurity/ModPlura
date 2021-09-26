@@ -1,3 +1,5 @@
+# Change for PLURA log format
+
 <Valve className="org.apache.catalina.valves.AccessLogValve” directory=”/var/log/plura"
   rotatable="false"
   renameOnRotate="false"
