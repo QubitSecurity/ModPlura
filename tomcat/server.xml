@@ -1,0 +1,5 @@
+<Valve className="org.apache.catalina.valves.AccessLogValve” directory=”/var/log/plura"
+  rotatable="false"
+  renameOnRotate="false"
+  prefix="weblog" suffix=".log"
+  pattern="{&quot;Remote-addr&quot;: &quot;%a&quot;, &quot;X-forwarded-for&quot;: &quot;%{X-Forwarded-For}i&quot;, &quot;Request-date&quot;: &quot;%{dd/MMM/yyyy:HH:mm:ss.SSS}t +0900&quot;, &quot;Method&quot;: &quot;%m&quot;, &quot;Request&quot;: &quot;%r&quot;, &quot;Host&quot;: &quot;%A&quot;, &quot;Uri&quot;: &quot;%U&quot;, &quot;Cookie&quot;: &quot;%{Cookie}i&quot;, &quot;Refere&quot;: &quot;%{Referer}i&quot;, &quot;User-Agent&quot;: &quot;%{User-Agent}i&quot;, &quot;Status&quot;: &quot;%s&quot;, &quot;Resp-Content-Length&quot;: &quot;%b&quot;}" />
